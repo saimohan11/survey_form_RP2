@@ -8,11 +8,18 @@
     <title>Meta-form</title>
 </head>
 <body>
-    <h1 id="title">Meta-verse survey form</h1>
-    <p id="description">It is a virtual reality world </p>
-    <form action="mailto:saimohan11sai@gmail.com" id="survey-form">
-        <label for="fname">Firstname</label>
-        <input type="text" name="Firstname" id="fname" placeholder="your name.." required>
-    </form>
+    <div id="container">
+        <h1 id="title">Meta-verse survey form</h1>
+        <p id="description">It is a virtual reality world </p>
+        <form action="mailto:saimohan11sai@gmail.com" id="survey-form">
+            <label id="name" for="fname">Firstname</label>
+            <input type="text" name="Firstname" id="fname" placeholder="your name.." required><br>
+            <label id="email" for="Myemail">Email</label>
+            <input type="email" name="Email" id="Myemail" placeholder="your email.." required><br>
+            <label id="number" for="Mynum">phone number</label>
+            <input type="tel" name="Ph-Number" id="Mynum" placeholder="Your number.." min="10" max="12" required><br>
+            
+        </form>
+    </div>
 </body>
 </html>
