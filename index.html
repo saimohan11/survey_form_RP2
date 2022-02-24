@@ -12,13 +12,45 @@
         <h1 id="title">Meta-verse survey form</h1>
         <p id="description">It is a virtual reality world </p>
         <form action="mailto:saimohan11sai@gmail.com" id="survey-form">
-            <label id="name" for="fname">Firstname</label>
-            <input type="text" name="Firstname" id="fname" placeholder="your name.." required><br>
-            <label id="email" for="Myemail">Email</label>
-            <input type="email" name="Email" id="Myemail" placeholder="your email.." required><br>
-            <label id="number" for="Mynum">phone number</label>
-            <input type="tel" name="Ph-Number" id="Mynum" placeholder="Your number.." min="10" max="12" required><br>
-            
+            <label id="name-label" for="fname">Firstname</label>
+            <input type="text" name="Firstname" id="fname" placeholder="your name.." required>
+            <label id="email-label" for="Myemail">Email</label>
+            <input type="email" name="Email" id="Myemail" placeholder="your email.." required>
+            <label id="number-label" for="Mynum">phone number</label>
+            <input type="tel" name="Ph-Number" id="Mynum" placeholder="Your number.." min="10" max="12" required>
+            <label id="dropdown" for="company">which company started meta verse?</label>
+            <select name="companies" id="company">
+                <option value="facebook">Facebook</option>
+                <option value="microsoft">Microsoft</option>
+                <option value="google">Google</option>
+            </select>
+            <p>Technology used in meta verse</p>
+            <input type="radio" name="technology" id="AI">
+            <label for="AI">artificial intelligence</label>
+            <input type="radio" name="technology" id="Block chain">
+            <label for="Block chain">Block chain</label>
+            <input type="radio" name="technology" id="vr">
+            <label for="vr">virtual reality</label>
+            <p>projects using meta verse technology</p>
+            <input type="checkbox" name="project1" id="sand" value="box">
+            <label for="Sand">Sand box</label>
+            <input type="checkbox" name="project2" id="mana" value="land">
+            <label for="mana">Decntra mana land</label>
+            <input type="checkbox" name="project3" id="browser" value="bat">
+            <label for="browser">Brave</label>
+            <input type="checkbox" name="project4" id="virtual" value="world">
+            <label for="virtual">Vr glasees</label>
+            <input type="checkbox" name="project5" id="google" value="browser">
+            <label for="google">Google</label>
+            <input type="checkbox" name="project6" id="alt" value="token">
+            <label for="alt">Shibu</label>
+            <input type="checkbox" name="project7" id="meme" value="coin">
+            <label for="meme">Doge</label>
+            <input type="checkbox" name="project8" id="link" value="star">
+            <label for="link">Star link</label><br>
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subject" placeholder="write something.." style="height: 100px;"></textarea>
+            <input type="submit" value="submit">
         </form>
     </div>
 </body>
