@@ -21,3 +21,14 @@ body::before {
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  #container {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #title {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin: 0 auto;
+  }
