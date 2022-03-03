@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="css/favicon (2).ico" type="form/x-icon">
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Meta-form</title>
 </head>
+
 <body>
     <div id="container">
         <h1 id="title">Meta-verse survey form</h1>
-        <p id="description">It is a virtual reality world </p>
+        <p id="description">It is a Virtual Reality World </p>
         <form action="mailto:saimohan11sai@gmail.com" id="survey-form">
-            <label id="name-label" for="fname">Firstname</label>
-            <input type="text" name="Firstname" id="fname" placeholder="your name.." required>
-            <label id="email-label" for="Myemail">Email</label>
-            <input type="email" name="Email" id="Myemail" placeholder="your email.." required>
-            <label id="number-label" for="Mynum">phone number</label>
-            <input type="tel" name="Ph-Number" id="Mynum" placeholder="Your number.." min="10" max="12" required>
+            <div class="row">
+                <label id="name-label" for="fname">Firstname</label>
+                <div id="label_inputs">
+                    <input type="text" name="Firstname" id="fname" placeholder="your name.." required>
+                </div>
+            </div>
+            <div class="row">
+                <label id="email-label" for="Myemail">Email</label>
+                <div id="label_inputs">
+                    <input type="email" name="Email" id="Myemail" placeholder="your email.." required>
+                </div>
+            </div>
+            <div class="row">
+                <label id="number-label" for="Mynum">phone number</label>
+                <div id="label_inputs">
+                    <input type="tel" name="Ph-Number" id="Mynum" placeholder="Your number.." min="10" max="12"
+                        required>
+                </div>
+            </div>
+
             <label id="dropdown" for="company">which company started meta verse?</label>
             <select name="companies" id="company">
+                <option value="Select">Select</option>
                 <option value="facebook">Facebook</option>
                 <option value="microsoft">Microsoft</option>
                 <option value="google">Google</option>
@@ -56,4 +75,5 @@
         </form>
     </div>
 </body>
+
 </html>
