@@ -64,3 +64,30 @@ body::before {
     padding: 12px;
     outline-style: 2px solid #000;
   }
+
+  #name-label,#email-label,#number-label {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  #company_select {
+    padding: 16px;  }
+
+  #dropdown{
+    display: inline-block;
+    width: 45%;
+    margin: 0 auto;
+    text-align: left;
+    padding-right: 0px;
+  }
+
+  #company {
+    display: inline-block;
+    width: 20%;
+    box-sizing: content-box;
+    padding: 8px;
+    border-style: 2px solid black;
+    border-radius: 5px;
+  }
