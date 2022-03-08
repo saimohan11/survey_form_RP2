@@ -62,7 +62,7 @@ body::before {
     box-sizing: content-box;
     border-style: none;
     /* border-bottom: 2px solid black; */
-    padding: 12px;
+    padding: 12px 0;
     outline-style: 2px solid #000;
   }
 
@@ -91,4 +91,22 @@ body::before {
     padding: 8px;
     border-style: 2px solid black;
     border-radius: 5px;
+  }
+
+  #container4 {
+    width: 75%;
+    margin: 0 auto 12px;
+    text-align: left;
+  }
+
+  #circle {
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .block1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-bottom: 10px;
   }
